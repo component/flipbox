@@ -4,6 +4,7 @@
   "description": "Double-sided flip box using css transformations",
   "version": "0.0.1",
   "keywords": [
+    "ui",
     "flip",
     "card",
     "css",
