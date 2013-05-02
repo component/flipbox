@@ -1,0 +1,26 @@
+{
+  "name": "flipbox",
+  "repo": "component/flipbox",
+  "description": "Double-sided flip box using css transformations",
+  "version": "0.0.1",
+  "keywords": [
+    "flip",
+    "card",
+    "css",
+    "3d"
+  ],
+  "dependencies": {
+    "component/query": "*",
+    "component/classes": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "flipbox.css"
+  ]
+}

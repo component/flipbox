@@ -1,0 +1,57 @@
+<html>
+<head>
+  <title>Flipbox</title>
+  <link rel="stylesheet" type="text/css" href="build/build.css">
+  <style>
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    body {
+      padding: 150px;
+    }
+
+    #card {
+      width: 100px;
+      height: 100px;
+    }
+
+    .back,
+    .front {
+      width: 100px;
+      height: 100px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      background: #eee;
+      text-align: center;
+      padding-top: 40px;
+    }
+
+    .back {
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <script src="build/build.js"></script>
+
+  <div id="card">
+    <div>
+      <div class="front">front</div>
+      <div class="back">back</div>
+    </div>
+  </div>
+
+  <script>
+    var card = document.querySelector('#card');
+    var Flipbox = require('flipbox');
+    var box = new Flipbox(card);
+
+    box.el.onclick = function(){
+      box.flip();
+    };
+  </script>
+</body>
+</html>
