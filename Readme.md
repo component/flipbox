@@ -9,7 +9,7 @@
 
 ## Example
 
-```js
+```html
 <div id="card">
   <div>
     <div>front</div>
